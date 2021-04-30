@@ -1,0 +1,82 @@
+.screen{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 22px;
+    z-index: -1;
+    flex-direction: column;
+    background-color: rgb(204 204 204 / 19%);
+}
+
+.continer{ 
+    display: flex;
+    margin: 70px 70px;
+}
+
+.item{ 
+    width: 70%;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.36);
+    border-radius: 10px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .iteminfo{
+    display: flex;
+    background: white;
+    margin: 40px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+   
+ }
+
+ .iteminfoitem{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(143, 143, 143, 0.281);
+    justify-content: space-between;
+ }
+
+ .iteminfoitem div{
+    font-size: 20px;
+    margin-top: -10px;
+ }
+
+ .imgcontiner{
+    width: 100%; 
+ }
+
+ .imgcontiner img{
+     border-radius: 10px 10px 0 0;
+     width: 100%;
+     height: 480px;
+ }
+
+ .infocontiner{
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.36);
+    width: 30%;
+    margin-left: 40px;
+    height: 300px;
+    border-radius: 10px;
+    background: white;
+ }
+
+ .infobutton{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .infobutton button {
+    width: 200px;
+    background: blue;
+    padding: 3%;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: -10px;
+ }

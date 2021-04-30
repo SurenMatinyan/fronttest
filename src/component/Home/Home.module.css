@@ -1,0 +1,51 @@
+.continer {  
+    margin: 70px 100px;
+}
+
+.parent{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.category{
+   
+}
+
+.category p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.productcontiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    width: 18%;
+    height: 180px;
+    border-radius: 10px;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+ .info p {
+    display: flex;
+   justify-content: left;
+    font-size: 20px;
+    line-height: 5px;
+    text-decoration: none;
+    color: black;
+ }
+
+ .product img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+ }

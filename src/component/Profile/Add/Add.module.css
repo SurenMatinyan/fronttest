@@ -1,0 +1,59 @@
+p{
+    text-align: center;
+}
+
+.category{
+    margin: auto;
+    width: 500px;
+}
+
+.cat { 
+    display: flex;
+    justify-content: center;
+}
+
+.category select{
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.category select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.formik {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgb(138, 138, 138);
+}
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.buttonSub{
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: rgb(51, 136, 48);
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+}
+

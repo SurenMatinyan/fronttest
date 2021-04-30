@@ -1,0 +1,55 @@
+.baner{
+    position: relative;
+    width: 90%;
+}
+
+.users{
+    position: relative;
+    right: -250px;
+    width: 140px;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+}
+
+.userinfo{
+    display: flex;
+}
+
+.userinfo img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userinfo div{
+   margin: auto;
+}
+
+.userinfo:hover{
+    color: blue;
+}
+
+.users:hover .drob {
+    display: block;
+}
+
+.drob{
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.36);
+    width: 100px;
+    display: none;
+    position: absolute;
+    width: 150px;
+}
+
+.drob button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    height: 40px;
+}
+
+.drob button:hover{
+    background-color: rgba(172, 172, 172, 0.281);
+}

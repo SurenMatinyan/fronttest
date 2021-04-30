@@ -1,0 +1,68 @@
+.displayBlack {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.363);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+input{
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.login{
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: -250px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.36);
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    z-index: 2;
+}
+
+.close{
+    border: none;
+    position: relative;
+    top: 0;
+    left: 467px;
+    padding: 12px;
+    background: #ffffff00;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form input {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 15px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+
+
+.form button{
+    border: none;
+    padding: 14px;
+    background-color: #6464ff;
+    width: 50%;
+    margin: 16px auto;
+    border-radius: 10px;
+    font-size: 17px;
+}
+

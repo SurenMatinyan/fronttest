@@ -1,0 +1,59 @@
+.buttonHome { 
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background: #282c34;
+    color: white;
+}
+
+.continer {
+   width: 100vw;
+   height: 100vh;
+}
+
+.form {
+    background: #24242b8c;
+    width: 380px;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    margin-left: -250px;
+    border: 1px solid rgb(255 255 255 / 43%);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.form p{
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    background: #2d2a2a8a;
+    color: rgb(255, 255, 255);
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+
+.form button {
+    display: flex;
+    background-color: rgb(62 107 32);
+    margin: 45px auto;
+    padding: 15px;
+    width: 331px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+}
